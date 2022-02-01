@@ -8,8 +8,22 @@
 import SwiftUI
 
 struct Home: View {
+    @State var showPicker: Bool = false
+    @State var selectedColor: Color = .white
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            Rectangle()
+                .fill(selectedColor)
+                .ignoresSafeArea()
+            //MARK: -Picker Button
+            Button{
+                showPicker.toggle()
+            }label: {
+                Text("Show Image Color Picker")
+            }
+        }
+        //MARK: Calling Modifier
+        .imageColorPicker(showPicker: $showPicker, color: $selectedColor)
     }
 }
 

@@ -11,6 +11,8 @@
 		436036AC27A8CF00001B4CB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436036AB27A8CF00001B4CB9 /* ContentView.swift */; };
 		436036AE27A8CF02001B4CB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 436036AD27A8CF02001B4CB9 /* Assets.xcassets */; };
 		436036B127A8CF02001B4CB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 436036B027A8CF02001B4CB9 /* Preview Assets.xcassets */; };
+		436036B927A8D05F001B4CB9 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436036B827A8D05F001B4CB9 /* Home.swift */; };
+		436036BB27A8D19B001B4CB9 /* CustomColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436036BA27A8D19B001B4CB9 /* CustomColorPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		436036AB27A8CF00001B4CB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		436036AD27A8CF02001B4CB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		436036B027A8CF02001B4CB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		436036B827A8D05F001B4CB9 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		436036BA27A8D19B001B4CB9 /* CustomColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColorPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		436036A827A8CF00001B4CB9 /* ImageColorPicker */ = {
 			isa = PBXGroup;
 			children = (
+				436036B727A8D03D001B4CB9 /* View */,
 				436036A927A8CF00001B4CB9 /* ImageColorPickerApp.swift */,
 				436036AB27A8CF00001B4CB9 /* ContentView.swift */,
 				436036AD27A8CF02001B4CB9 /* Assets.xcassets */,
@@ -65,6 +70,15 @@
 				436036B027A8CF02001B4CB9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		436036B727A8D03D001B4CB9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				436036B827A8D05F001B4CB9 /* Home.swift */,
+				436036BA27A8D19B001B4CB9 /* CustomColorPicker.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				436036AC27A8CF00001B4CB9 /* ContentView.swift in Sources */,
+				436036B927A8D05F001B4CB9 /* Home.swift in Sources */,
+				436036BB27A8D19B001B4CB9 /* CustomColorPicker.swift in Sources */,
 				436036AA27A8CF00001B4CB9 /* ImageColorPickerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
